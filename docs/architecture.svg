@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 630" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <!-- AI agents & applications -->
+  <rect x="20" y="20" width="880" height="104" rx="12" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="40" y="44" font-size="15" font-weight="600" fill="#1e40af">AI agents &amp; applications</text>
+
+  <rect x="130" y="56" width="250" height="56" rx="10" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="255" y="82" text-anchor="middle" font-size="15" font-weight="600" fill="#1e40af">Generic agents</text>
+  <text x="255" y="101" text-anchor="middle" font-size="13" fill="#1d4ed8">Claude · Cursor · ChatGPT</text>
+
+  <rect x="540" y="56" width="250" height="56" rx="10" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="665" y="82" text-anchor="middle" font-size="15" font-weight="600" fill="#1e40af">Klarova copilot</text>
+  <text x="665" y="101" text-anchor="middle" font-size="13" fill="#1d4ed8">a real agent we build</text>
+
+  <!-- Agents -> layer -->
+  <line x1="460" y1="124" x2="460" y2="205" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="425" y="152" width="70" height="24" rx="6" fill="#f1f5f9" stroke="#e2e8f0"/>
+  <text x="460" y="168" text-anchor="middle" font-size="13" fill="#475569">queries</text>
+
+  <!-- Context layer (the moat) -->
+  <rect x="20" y="210" width="880" height="200" rx="12" fill="#f0fdfa" stroke="#0d9488" stroke-width="2.5"/>
+  <text x="40" y="234" font-size="15" font-weight="600" fill="#115e59">Klarova — the governed context layer</text>
+
+  <rect x="55" y="262" width="250" height="120" rx="10" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="180" y="316" text-anchor="middle" font-size="15" font-weight="600" fill="#115e59">Semantic model</text>
+  <text x="180" y="335" text-anchor="middle" font-size="13" fill="#0f766e">governed definitions</text>
+
+  <rect x="335" y="262" width="250" height="120" rx="10" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="460" y="316" text-anchor="middle" font-size="15" font-weight="600" fill="#115e59">Grounding &amp; memory</text>
+  <text x="460" y="335" text-anchor="middle" font-size="13" fill="#0f766e">retrieval + recall</text>
+
+  <rect x="615" y="262" width="250" height="120" rx="10" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="740" y="316" text-anchor="middle" font-size="15" font-weight="600" fill="#115e59">Governed execution</text>
+  <text x="740" y="335" text-anchor="middle" font-size="13" fill="#0f766e">scope · run · audit</text>
+
+  <!-- Layer -> data -->
+  <line x1="460" y1="410" x2="460" y2="491" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="386" y="438" width="148" height="24" rx="6" fill="#f1f5f9" stroke="#e2e8f0"/>
+  <text x="460" y="454" text-anchor="middle" font-size="13" fill="#475569">governed execution</text>
+
+  <!-- Your data sources -->
+  <rect x="20" y="496" width="880" height="112" rx="12" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="40" y="520" font-size="15" font-weight="600" fill="#92400e">Your data sources</text>
+
+  <rect x="34" y="534" width="195" height="58" rx="10" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="131" y="560" text-anchor="middle" font-size="15" font-weight="600" fill="#92400e">Warehouse</text>
+  <text x="131" y="579" text-anchor="middle" font-size="13" fill="#b45309">the numbers</text>
+
+  <rect x="253" y="534" width="195" height="58" rx="10" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="350" y="560" text-anchor="middle" font-size="15" font-weight="600" fill="#92400e">Internal documents</text>
+  <text x="350" y="579" text-anchor="middle" font-size="13" fill="#b45309">the knowledge</text>
+
+  <rect x="472" y="534" width="195" height="58" rx="10" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="569" y="560" text-anchor="middle" font-size="15" font-weight="600" fill="#92400e">Systems &amp; APIs</text>
+  <text x="569" y="579" text-anchor="middle" font-size="13" fill="#b45309">the systems of record</text>
+
+  <rect x="691" y="534" width="195" height="58" rx="10" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="788" y="560" text-anchor="middle" font-size="15" font-weight="600" fill="#92400e">Files &amp; sheets</text>
+  <text x="788" y="579" text-anchor="middle" font-size="13" fill="#b45309">the long tail</text>
+</svg>
